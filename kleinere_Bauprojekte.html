@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Bürgerbautrupp</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style_website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+    </head>
+<body>
+    
+    <!--- HEADER -------------------->
+    
+       
+    <header>
+    <div id="logo">
+        <a href="website.html">
+        <img src="img/logo.png" alt="Logo">
+        </a>
+        </div>
+        
+        <nav id="main-nav">
+            
+            <img src="img/nav_icon.png" alt="nav_icon">
+                
+        <ul>
+ <a href="index.html"><li>Startseite</li></a>
+            <a href="index.html#ueber_uns"><li>über Uns</li></a>
+            <a href="index.html#unsere_projekte"><li>unsere Projekte</li></a>
+            <a href="index.html#kontakt"><li>Kontakt</li></a>
+             <a href=Impressum.html><li>Impressum</li></a>
+            <a href=Datenschutz.html><li>Datenschutz</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <!--- STARTSEITE ---------------------->
+    
+
+   
+
+               
+
+<center>
+       <div class="flexbox">  
+    <br>
+    <br>
+   <h1>Regelmäßige kleinere Bauprojekte</h1>
+    <br>
+    
+<p>Kleineren Bauprojekten und baulichen Unterhaltungsmaßnahmen nimmt sich der Bürgerbautrupp regelmäßig an. Meistens unauffällig und ohne viel Aufsehen sind manche Dinge einfach gemacht!
+Z. B. die Eingangstreppe zur Sakristei. 
+Lange Zeit sah sie so aus!
+Heute so!
+
+</p><br>
+            </div>   </center>
+    
+<meta name="viewport" content=Slide_By_JM>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+
+<h2 class="w3-center"></h2>
+    
+<h1 class="w3-center">  </h1>
+    
+<div class="w3-content w3-display-container">
+  <img class="Slider_by_JM" src="img/Sakristeitreppe1.JPG" style="width:100%">
+  <img class="Slider_by_JM" src="img/Sakristeitreppe2.JPG" style="width:100%">
+  <img class="Slider_by_JM" src="img/Sakristeitreppe3.JPG" style="width:100%">
+  <img class="Slider_by_JM" src="img/Sakristeitreppe4.JPG" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("Slider_by_JM");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+  
+
+    
+    <!--- FOOTER ---------------------->
+  
+
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+<script src="js/mobile-menu.js"></script>
+    
+    </body>
+</html>
