@@ -3,7 +3,7 @@
 > Technologies Used:  HTML, CSS, Javascript
 
 
-[Link to website here]([https://joelmoyal.github.io/ConCoinCryptoPrototype/](http://www.xn--brgerbautrupp-wob.de/))
+[Link to website here](http://www.xn--brgerbautrupp-wob.de/)
 
 
 ----------
