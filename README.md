@@ -42,3 +42,9 @@ For more information about the Village Project Citizen Building Crew, please vis
 -   Website: [http://www.xn--brgerbautrupp-wob.de/]
 -   Email: info@bürgerbautrupp.de
 
+## Website Statistics
+
+![Usage_Summary](https://github.com/JoelMoyal/Buergerbautrupp/assets/49955244/86ce2144-fbd3-4d7a-bbd3-1c143a1208ea)
+
+<img width="604" alt="Summary_by_month" src="https://github.com/JoelMoyal/Buergerbautrupp/assets/49955244/6aa6aa55-91d5-474f-9bb8-78554e2b8882">
+
